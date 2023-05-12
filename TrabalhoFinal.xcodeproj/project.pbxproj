@@ -16,6 +16,10 @@
 		07CC11662A0C69E60098A955 /* TrabalhoFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CC11652A0C69E60098A955 /* TrabalhoFinalTests.swift */; };
 		07CC11702A0C69E60098A955 /* TrabalhoFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CC116F2A0C69E60098A955 /* TrabalhoFinalUITests.swift */; };
 		07CC11722A0C69E60098A955 /* TrabalhoFinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CC11712A0C69E60098A955 /* TrabalhoFinalUITestsLaunchTests.swift */; };
+		07CC11812A0C6AC30098A955 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CC11802A0C6AC20098A955 /* logo.png */; };
+		07CC11832A0C6D2E0098A955 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CC11822A0C6D2E0098A955 /* TableViewController.swift */; };
+		07CC11872A0C7BB90098A955 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CC11862A0C7BB90098A955 /* NavigationViewController.swift */; };
+		07CC118B2A0C80E40098A955 /* NavigationViewControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CC118A2A0C80E40098A955 /* NavigationViewControllerMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		07CC116B2A0C69E60098A955 /* TrabalhoFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrabalhoFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CC116F2A0C69E60098A955 /* TrabalhoFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrabalhoFinalUITests.swift; sourceTree = "<group>"; };
 		07CC11712A0C69E60098A955 /* TrabalhoFinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrabalhoFinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		07CC11802A0C6AC20098A955 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		07CC11822A0C6D2E0098A955 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		07CC11862A0C7BB90098A955 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		07CC118A2A0C80E40098A955 /* NavigationViewControllerMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewControllerMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,17 @@
 		07CC114D2A0C69E30098A955 /* TrabalhoFinal */ = {
 			isa = PBXGroup;
 			children = (
+				07CC11802A0C6AC20098A955 /* logo.png */,
 				07CC114E2A0C69E30098A955 /* AppDelegate.swift */,
 				07CC11502A0C69E30098A955 /* SceneDelegate.swift */,
 				07CC11522A0C69E30098A955 /* ViewController.swift */,
 				07CC11542A0C69E30098A955 /* Main.storyboard */,
+				07CC11822A0C6D2E0098A955 /* TableViewController.swift */,
 				07CC11572A0C69E60098A955 /* Assets.xcassets */,
 				07CC11592A0C69E60098A955 /* LaunchScreen.storyboard */,
 				07CC115C2A0C69E60098A955 /* Info.plist */,
+				07CC11862A0C7BB90098A955 /* NavigationViewController.swift */,
+				07CC118A2A0C80E40098A955 /* NavigationViewControllerMain.swift */,
 			);
 			path = TrabalhoFinal;
 			sourceTree = "<group>";
@@ -231,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07CC11812A0C6AC30098A955 /* logo.png in Resources */,
 				07CC115B2A0C69E60098A955 /* LaunchScreen.storyboard in Resources */,
 				07CC11582A0C69E60098A955 /* Assets.xcassets in Resources */,
 				07CC11562A0C69E30098A955 /* Main.storyboard in Resources */,
@@ -260,7 +273,10 @@
 			files = (
 				07CC11532A0C69E30098A955 /* ViewController.swift in Sources */,
 				07CC114F2A0C69E30098A955 /* AppDelegate.swift in Sources */,
+				07CC118B2A0C80E40098A955 /* NavigationViewControllerMain.swift in Sources */,
 				07CC11512A0C69E30098A955 /* SceneDelegate.swift in Sources */,
+				07CC11872A0C7BB90098A955 /* NavigationViewController.swift in Sources */,
+				07CC11832A0C6D2E0098A955 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
