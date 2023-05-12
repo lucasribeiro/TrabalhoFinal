@@ -27,7 +27,7 @@
                                 <color key="backgroundColor" systemColor="systemCyanColor"/>
                                 <accessibility key="accessibilityConfiguration" label="Selecionar Receita"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                <buttonConfiguration key="configuration" style="plain" title="Selecionar Receita">
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -40,9 +40,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="lblIngredientes" text="lblIngredientes" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2q-8i-yVe">
-                                <rect key="frame" x="20" y="278" width="353" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="lblIngredientes" text="lblIngredientes" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2q-8i-yVe">
+                                <rect key="frame" x="20" y="278" width="353" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -52,14 +52,30 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Modo de Preparo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fq6-RA-jxk">
+                                <rect key="frame" x="20" y="317" width="353" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="lblModoPreparo" text="lblModoPreparo" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJD-Mr-6FN">
+                                <rect key="frame" x="20" y="357" width="353" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DOZ-3x-M8g"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="2me-WS-3dJ" firstAttribute="leading" secondItem="DOZ-3x-M8g" secondAttribute="leading" constant="20" id="11s-xG-ma2"/>
+                            <constraint firstItem="DOZ-3x-M8g" firstAttribute="trailing" secondItem="cJD-Mr-6FN" secondAttribute="trailing" constant="20" id="3ie-Zh-EW6"/>
                             <constraint firstItem="56L-ql-ghM" firstAttribute="leading" secondItem="DOZ-3x-M8g" secondAttribute="leading" constant="15" id="41E-ZE-jfi"/>
                             <constraint firstItem="V2q-8i-yVe" firstAttribute="leading" secondItem="DOZ-3x-M8g" secondAttribute="leading" constant="20" id="Fl4-vS-JfA"/>
+                            <constraint firstItem="fq6-RA-jxk" firstAttribute="leading" secondItem="DOZ-3x-M8g" secondAttribute="leading" constant="20" id="KkS-8j-Qrt"/>
+                            <constraint firstItem="fq6-RA-jxk" firstAttribute="top" secondItem="V2q-8i-yVe" secondAttribute="bottom" constant="15" id="LCV-Gg-ZKd"/>
                             <constraint firstItem="DOZ-3x-M8g" firstAttribute="trailing" secondItem="V2q-8i-yVe" secondAttribute="trailing" constant="20" id="PoA-Gc-bH3"/>
+                            <constraint firstItem="DOZ-3x-M8g" firstAttribute="trailing" secondItem="fq6-RA-jxk" secondAttribute="trailing" constant="20" id="SQc-Oz-Do4"/>
                             <constraint firstItem="7NZ-gv-zHV" firstAttribute="trailing" secondItem="DOZ-3x-M8g" secondAttribute="trailing" constant="20" id="UQz-tj-Q43"/>
                             <constraint firstItem="DOZ-3x-M8g" firstAttribute="trailing" secondItem="iU3-I0-k15" secondAttribute="trailing" constant="20" id="UR2-kr-CoD"/>
                             <constraint firstItem="DOZ-3x-M8g" firstAttribute="bottom" secondItem="56L-ql-ghM" secondAttribute="bottom" constant="20" id="XCu-gl-xmD"/>
@@ -69,8 +85,10 @@
                             <constraint firstItem="DOZ-3x-M8g" firstAttribute="trailing" secondItem="7NZ-gv-zHV" secondAttribute="trailing" id="hSo-x5-VER"/>
                             <constraint firstItem="DOZ-3x-M8g" firstAttribute="trailing" secondItem="2me-WS-3dJ" secondAttribute="trailing" constant="20" id="i6u-JX-cnO"/>
                             <constraint firstItem="2me-WS-3dJ" firstAttribute="top" secondItem="iU3-I0-k15" secondAttribute="bottom" constant="15" id="nRP-eD-e1l"/>
+                            <constraint firstItem="cJD-Mr-6FN" firstAttribute="leading" secondItem="DOZ-3x-M8g" secondAttribute="leading" constant="20" id="odw-fl-PNs"/>
                             <constraint firstItem="7NZ-gv-zHV" firstAttribute="top" secondItem="DOZ-3x-M8g" secondAttribute="top" constant="50" id="osU-M8-X93"/>
                             <constraint firstItem="iU3-I0-k15" firstAttribute="leading" secondItem="DOZ-3x-M8g" secondAttribute="leading" constant="20" id="syP-l1-uZ0"/>
+                            <constraint firstItem="cJD-Mr-6FN" firstAttribute="top" secondItem="fq6-RA-jxk" secondAttribute="bottom" constant="10" id="yAd-of-KtD"/>
                             <constraint firstItem="7NZ-gv-zHV" firstAttribute="leading" secondItem="DOZ-3x-M8g" secondAttribute="leading" constant="20" id="zKN-Bl-wu1"/>
                         </constraints>
                     </view>
@@ -78,41 +96,13 @@
                     <connections>
                         <outlet property="btnSelecionarReceita" destination="56L-ql-ghM" id="Nzd-rE-762"/>
                         <outlet property="lblIngredientes" destination="V2q-8i-yVe" id="K7b-KR-ZBC"/>
+                        <outlet property="lblModoPreparo" destination="cJD-Mr-6FN" id="0Ie-Hk-HXL"/>
                         <outlet property="lblNomeReceita" destination="iU3-I0-k15" id="Guh-tV-3Sb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="179" y="-805"/>
-        </scene>
-        <!--Root View Controller-->
-        <scene sceneID="6nz-2b-5VZ">
-            <objects>
-                <tableViewController id="lT7-qD-yGD" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="qT2-dx-oZb">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="maA-fG-tQf">
-                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="maA-fG-tQf" id="4uS-N7-fXn">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="lT7-qD-yGD" id="BFa-rU-cwI"/>
-                            <outlet property="delegate" destination="lT7-qD-yGD" id="jsW-Jv-F4D"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="qFk-Z7-alV"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="w7y-PS-S5V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="500" y="-2"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7NU-R1-TnV">
